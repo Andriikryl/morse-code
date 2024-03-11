@@ -1,0 +1,64 @@
+.word__box{
+    height: 300px;
+    width: 100%;
+    background-color: tomato;
+    display: grid;
+    place-items: center;
+}
+
+.word{
+    display: flex;
+    gap: 10px;
+}
+
+.letter{
+    display: grid;
+    place-items: center;
+    width: 100px;
+    height: 100px;
+    color: var(--black, #1b1b1b);
+    background-color: aliceblue;
+    font-family: Patrick Hand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    margin-block-end: 20px;
+    text-transform: uppercase;
+}
+
+.form__box{
+    max-width: 300px;
+    margin-inline: auto;
+}
+
+.button{
+    width: 200px;
+    height: 40px;
+    background-color: #ffff;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.button__group{
+    margin-block-start: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.dash{
+    width: 50px;
+    height: 20px;
+    background-color: black;
+}
